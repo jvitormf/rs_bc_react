@@ -27,3 +27,6 @@ yarn add file-loader -D
 
 //plugin babel class properties
 yarn add @babel/plugin-proposal-class-properties -D
+
+//avisar tipo de propriedades
+yarn add prop-types
