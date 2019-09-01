@@ -1,0 +1,29 @@
+//criar projeto
+yarn init -y
+
+//ferramentas babel core, preset-env, preset-react, webpack webpack-cli
+yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
+
+//react
+yarn add react react-dom
+
+//loaders
+yarn add babel-loader -D
+
+//adicionar webpack
+yarn add webpack -D
+
+//apos criar script build no package.json, rodar
+yarn build
+
+//autoreload
+yarn add webpack-dev-server -D
+
+//loader de styles
+yarn add style-loader css-loader -D
+
+//loader de imagens
+yarn add file-loader -D
+
+//plugin babel class properties
+yarn add @babel/plugin-proposal-class-properties -D
